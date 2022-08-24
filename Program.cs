@@ -20,7 +20,7 @@ namespace sixthTask
             countCrystalsToBuy = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Кристаллов куплено: {0}", countCrystalsToBuy);
 
-            goldBalance = goldBalance - (countCrystalsToBuy * crystalPrice);
+            goldBalance -= (countCrystalsToBuy * crystalPrice);
             Console.WriteLine("Ваш остаток золотых: {0}", goldBalance);
         }
     }
